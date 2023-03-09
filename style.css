@@ -11,6 +11,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -99,7 +100,7 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     padding: 85px 0 75px;
     background-color: #efefef;
 }
@@ -145,4 +146,37 @@ h2.title {
     font: 300 15px 'Roboto', serif;
     color: #4a4a4a;
     line-height: 21px;
+}
+
+.optimization {
+    min-width: 550px;
+    padding: 102px 0 107px;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    font: 400 30px 'Roboto-Black', serif;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-left: 391px;
+    font: 300 17px 'Roboto', serif;
+    color: #4a4a4a;
+}
+
+.optimization .optimization_text .optimization_text_item {
+    margin-top: 15px;
+}
+
+.optimization .optimization_text p:last-of-type {
+    font: 700 17px 'Roboto', serif;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: 48px;
+    left: -240px;
+    z-index: -1;
 }
