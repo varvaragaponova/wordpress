@@ -68,7 +68,8 @@ h2.title {
     color: #f9bf3b;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_wrapper .gift_btn {
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -83,7 +84,8 @@ h2.title {
     outline: none;
 }
 
-.promo .promo_btn:hover {
+.promo .promo_btn:hover,
+.gift .gift_wrapper .gift_btn:hover {
     cursor: pointer;
 }
 
@@ -220,4 +222,22 @@ h2.title {
     font: 300 17px 'Roboto', serif;
     text-align: center;
     color: #efefef;
+}
+
+.gift {
+    min-height: 631px;
+    padding: 88px 0;
+    background-color: #efefef;
+}
+
+.gift .gift_wrapper .gift_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_wrapper .gift_text {
+    margin-top: 45px;
+    font: 400 30px 'Roboto', serif;
+    line-height: 43px;
+    text-align: center;
 }
