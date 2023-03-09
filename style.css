@@ -230,7 +230,8 @@ h2.title {
     background-color: #efefef;
 }
 
-.gift .gift_wrapper .gift_icon {
+.gift .gift_wrapper .gift_icon,
+.webinar .webinar_icon {
     display: block;
     margin: 0 auto;
 }
@@ -239,5 +240,31 @@ h2.title {
     margin-top: 45px;
     font: 400 30px 'Roboto', serif;
     line-height: 43px;
+    text-align: center;
+}
+
+.webinar {
+    min-height: 514px;
+    padding: 81px 0 0;
+}
+
+.webinar .webinar_title {
+    margin-top: 36px;
+    font: 400 30px 'Roboto', serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.webinar .webinar_time {
+    margin-top: 30px;
+    font: 900 36px 'Roboto', serif;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+
+.webinar .webinar_description {
+    margin-top: 24.5px;
+    font: 400 23px 'Roboto', serif;
     text-align: center;
 }
